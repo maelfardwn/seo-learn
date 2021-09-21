@@ -32,8 +32,12 @@ class Home extends Component {
     <meta property="og:url" content='https://assesmenttestridwan.herokuapp.com/'/>
     
     <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="This is Title Home for twitter"/>
     <meta name="twitter:image:alt" content='London Pict With Twitter image alt'/> 
-    <meta property="twitter:description" content="Description this"/>
+    <meta property="twitter:description" content="This is Description Home Twitter"/>
+    
+    <meta name="twitter:site" content="@nytimesbits" />
+    <meta name="twitter:creator" content="@nickbilton" />
     </Helmet>
     <header className="App-header">
       <div style={{width:'400px',height:'200px'}}>
