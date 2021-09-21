@@ -20,13 +20,19 @@ function App() {
     ReactGa.pageview('/')
   })
 
-  return (
+  return ( 
+  <BrowserRouter>
+    <Helmet>
+    <title>Homepage index</title>
+    <meta name="description" content="This is the homepage index"/>
+    </Helmet>
     <Switch>
     <Route exact path='/about' component = { About } />
     <Route exact path='/projects' component = { Projects } />
     <Route exact path='/contact' component = { Contact }/>
     <Route exact path='/' component={Home} />
   </Switch>
+  </BrowserRouter>
   );
 }
 
