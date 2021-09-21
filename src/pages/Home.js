@@ -27,7 +27,6 @@ class Home extends Component {
     
     <meta property="og:title" content='opengraph test homepage'/>
     <meta property="og:description" content='This is homepage using opengraph for testing'/>
-    <meta property="og:description" content="Description this"/>
     <meta property="og:image" content='https://assesmenttestridwan.herokuapp.com/assets/london.jpg'/>
     <meta property="og:url" content='https://assesmenttestridwan.herokuapp.com/'/>
     
