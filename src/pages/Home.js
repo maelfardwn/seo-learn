@@ -38,10 +38,12 @@ class Home extends Component {
     <meta name="twitter:site" content="@nytimesbits" />
     <meta name="twitter:creator" content="@nickbilton" />
     </Helmet>
-    <header className="App-header">
+    <Navbar/>
+    <header className="App-header"> 
+      
       <div style={{width:'400px',height:'200px'}}>
       <img width='200px' height='100px' src={london}/>
-       <h2>Hello</h2>
+       <h1>Hello</h1>
        <p>This is home page . and you will see more information from another page</p>
       </div>
       </header>

@@ -3,11 +3,14 @@ import MetaDecorator from '../components/MetaDecorator'
 import contact from '../assets/contact.png'
 import { Helmet } from 'react-helmet'
 
+import london from '../assets/contact.png'
 import {ReactTitle} from 'react-meta-tags';
+import Navbar from './Navbar'
 class Contact extends Component {
   render(){
   return(
-    <div>
+   
+    <div className="App">
         <Helmet>
             
           <title>Contact Title</title>
@@ -28,7 +31,15 @@ class Contact extends Component {
           <meta property="twitter:description" content="This is descripttion of contact page Twitter"/>
           <meta property="twitter:image" content="https://assesmenttestridwan.herokuapp.com/assets/contact.png"/>
         </Helmet>
-        <h1>this is the Contact Page</h1>
+        
+        <Navbar/>
+        <header className="App-header">
+      <div style={{width:'400px',height:'200px'}}>
+      <img width='200px' height='100px' src={london}/>
+          <h1>This is the Contact Page</h1>
+          <p>This is Contact page . and you will see more information from another page</p>
+      </div>
+        </header>
     </div>
   )
 }
